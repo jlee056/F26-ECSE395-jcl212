@@ -1,7 +1,7 @@
 # Overview
 This repository holds my coursework for **ECSE 395 — Junior Engineering Design Seminar** (Fall 2026), taught by Dr. Alexis E. Block and Michael Fu.
 
-The purpose of the `Weekly project log` folder is to keep a **weekly, dated record of the work I do toward the semester project**. It serves as an accountability log of my individual contributions across the semester — every time I work on the project, I write a short summary in that week's Markdown file and commit it.
+The purpose of the `Weekly project log` folder is to keep a **weekly, dated record of the work I do toward the semester project**. It serves as an accountability log of my individual contributions across the semester every time I work on the project, I write a short summary in that week's Markdown file and commit it.
 
 Each week gets its own file, listed in the table of contents below.
 
