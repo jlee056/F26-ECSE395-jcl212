@@ -65,22 +65,22 @@ void setup() {
   pinMode(LED_PIN, OUTPUT);
   Serial.begin(BAUD_RATE);  // jcl212 - Start the Serial connection at 115200 baud
   delay(500);               // jcl212 - brief wait so the serial monitor catches the first message
-  Serial.println("jcl212 - ESP32 online. Booting the light show..."); // jcl212 - custom startup message
+  Serial.println("jcl212 - ESP32"); // jcl212 - custom startup message
 }
 
 void loop() {
   // jcl212 - Each pattern announces itself in the Serial Monitor before it runs,
   // jcl212 - so the grader can match what they read to what the LED is doing.
 
-  Serial.println("Lub-dub, lub-dub... this ESP32 has a pulse."); // jcl212 - custom serial message
+  Serial.println("Womp Womp"); // jcl212 - custom serial message
   heartbeat(3);           // jcl212 - three heartbeats
   delay(PATTERN_PAUSE);   // jcl212 - dark pause between patterns
 
-  Serial.println("SOS! Send help, my toilet lid is still open."); // jcl212 - custom serial message, nods to our semester project
+  Serial.println("SOS!"); // jcl212 - custom serial message
   sos();
   delay(PATTERN_PAUSE);
 
-  Serial.println("Warp speed engaged. Hold on to something."); // jcl212 - custom serial message
+  Serial.println("Going Faster"); // jcl212 - custom serial message
   rampStrobe();
   delay(PATTERN_PAUSE);
 }
