@@ -79,4 +79,4 @@ these notes will be filled in as soon as the interview is scheduled and complete
 | | |
 | --- | --- |
 | **Worked on as a team** | Followed up on the unresponsive stakeholder and decided to escalate to the teaching staff per the Canvas announcement; need-finding interview still pending |
-| **My individual contribution** | Completed Lab 2 end to end — ESP32 toolchain setup, custom multi-pattern blink code with commented modifications, and the `esp32_basics.md` write-up |
+| **My individual contribution** | Completed Lab 2, ESP32 toolchain setup, custom multi-pattern blink code with commented modifications, and the `esp32_basics.md` write-up |
