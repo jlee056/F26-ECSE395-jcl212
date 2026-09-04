@@ -82,11 +82,11 @@ first build.
 
 **3. If you associated medium/high difficulty with this assignment, what aspect did you find the most difficult?**
 
-Getting the board to connect. The code was the easy part — the hard part was that my laptop would
+Getting the board to connect. The code was the easy part. The hard part was that my laptop would
 not talk to the ESP32 at all. First it was the cable: the one I started with was charge-only, so the
 board powered up and looked fine while no serial port ever appeared. Once I swapped to a data cable
 the board showed up as `/dev/cu.usbserial-5A6C0426991`, but the upload still failed with
-`Resource busy` and then `Failed to connect`, because PlatformIO was pointed at the wrong port — it
+`Resource busy` and then `Failed to connect`, because PlatformIO was pointed at the wrong port, it
 had auto-selected one of my Mac's Bluetooth ports instead of the ESP32. I had to select the correct
 `usbserial` port before it would upload.
 
