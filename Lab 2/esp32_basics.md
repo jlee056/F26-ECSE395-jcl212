@@ -71,29 +71,25 @@ The board is connected to my laptop with a **USB-C data cable** (not a charge-on
 
 **1. How long did it take you to complete this assignment?**
 
-About 1 hour and 30 minutes. Most of that was installing VS Code and PlatformIO and waiting on the
-first build, since PlatformIO downloads the whole ESP32 toolchain the first time. Writing and tuning
-the light show itself took maybe 30 minutes.
+About 1 hour. Most of that was installing VS Code and PlatformIO and waiting on the
+first build.
 
 **2. What level of difficulty would you associate with this assignment? (Low, Medium, High)**
 
-- [ ] Low
-- [x] Medium
+- [x] Low
+- [] Medium
 - [ ] High
 
 **3. If you associated medium/high difficulty with this assignment, what aspect did you find the most difficult?**
 
-The code itself was straightforward, but the setup was where I spent the most time. The one thing
-that actually tripped me up was the Serial Monitor printing garbage characters — it took me a minute
-to realize the baud rate in `platformio.ini` has to match the one in `Serial.begin()`. Getting the
+The code itself was straightforward, but the setup was where I spent the most time. Getting the
 Morse timing to look right also took a few passes of building and re-uploading, since 3 seconds of
 blinking looks a lot different on the board than it does in the code.
 
 **4. How comfortable do you currently feel with the course content?**
 
 Comfortable. I have programming experience, so the C++ side felt familiar, and the hardware side is
-new but approachable. I would like more practice with the other pins and peripherals on the board
-before we start building the semester project.
+new but approachable.
 
 **5. Do you have any additional information or feedback you would like to share with the instructors?**
 
