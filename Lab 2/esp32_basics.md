@@ -82,9 +82,17 @@ first build.
 
 **3. If you associated medium/high difficulty with this assignment, what aspect did you find the most difficult?**
 
-The code itself was straightforward, but the setup was where I spent the most time. Getting the
-Morse timing to look right also took a few passes of building and re-uploading, since 3 seconds of
-blinking looks a lot different on the board than it does in the code.
+Getting the board to connect. The code was the easy part — the hard part was that my laptop would
+not talk to the ESP32 at all. First it was the cable: the one I started with was charge-only, so the
+board powered up and looked fine while no serial port ever appeared. Once I swapped to a data cable
+the board showed up as `/dev/cu.usbserial-5A6C0426991`, but the upload still failed with
+`Resource busy` and then `Failed to connect`, because PlatformIO was pointed at the wrong port — it
+had auto-selected one of my Mac's Bluetooth ports instead of the ESP32. I had to select the correct
+`usbserial` port before it would upload.
+
+I also pinned the port in `platformio.ini` (`upload_port = /dev/cu.usbserial*`) so PlatformIO cannot
+fall back to a Bluetooth port again. That was the real lesson from this lab: when the board will not
+upload, it is almost always the cable or the port, not the code.
 
 **4. How comfortable do you currently feel with the course content?**
 
