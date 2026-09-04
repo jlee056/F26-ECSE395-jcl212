@@ -68,7 +68,7 @@ stakeholder or being pointed toward a different one.
 
 ## Need-Finding Interview Notes
 
-The need-finding interview has **not been conducted yet** — our stakeholder has not responded to the
+The need-finding interview has **not been conducted yet**. Our stakeholder has not responded to the
 introduction email we sent in Week 1. We are meeting with the teaching staff to resolve this, and
 these notes will be filled in as soon as the interview is scheduled and completed.
 
