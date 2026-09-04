@@ -55,7 +55,7 @@ stakeholder or being pointed toward a different one.
 **Date:** 9/4/26 · **Format:** in person
 
 - Attendees: Jeremy Lee, Ethan Sloat, George Guaman
-- Reviewed the status of the stakeholder email sent in Week 1 — still no response
+- Reviewed the status of the stakeholder email sent in Week 1 and still no response
 - Read the Canvas announcement about unresponsive stakeholders
 - Decided to raise it with the teaching staff rather than keep waiting
 
