@@ -27,7 +27,12 @@ a microcontroller reading a sensor and driving an output is the core of it. Blin
 timed pattern is the same shape of problem as driving a reminder indicator or an actuator once a
 sensor fires.
 
-<!-- TODO jcl212: add any other individual work you did this week before submitting -->
+**September 4, 2026 — Debugged the board connection**
+Spent most of the lab getting the ESP32 to talk to my laptop. The first USB-C cable turned out to be
+charge-only, so the board powered on but never enumerated as a serial device. After swapping to a
+data cable it appeared, but uploads still failed because PlatformIO had auto-selected one of my
+Mac's Bluetooth ports instead of the board. Selecting the correct `usbserial` port fixed it, and I
+pinned the port in `platformio.ini` so it cannot happen again.
 
 ---
 
