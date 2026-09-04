@@ -9,4 +9,4 @@ Each week gets its own file, listed in the table of contents below.
 | Weeks | What we did |
 | ----- | ----------- |
 | [Week 1](Week1.md) | Formed our team, ranked and picked our project topic (people forgetting to close the toilet lid before flushing), reviewed and signed the team contract, and emailed our stakeholder. Set up GitHub and practiced Markdown. |
-
+| [Week 2](Week2.md) | Followed up on our unresponsive stakeholder and decided to escalate to the teaching staff per the Canvas announcement; need-finding interview still pending. Individually completed Lab 2 — ESP32 + PlatformIO setup and a custom multi-pattern blink program. |
