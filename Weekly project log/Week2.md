@@ -95,9 +95,9 @@ assumption into the design work. He replied the same evening confirming that our
 - He forgets to close the toilet cover before flushing.
 - His friend's wife always says to shut the toilet bowl before flushing.
 - He raised sanitary concerns as the reason it matters.
-- Guests are important to him — he framed it as a household standard.
+- Guests are important to him. He framed it as a household standard.
 - The soft-closing lid is slow, and waiting for it before flushing is annoying.
-- He said the problem is not so much about not forgetting — he wants an auto-flush function.
+- He said the problem is not so much about not forgetting, he wants an auto-flush function.
 - He said the toilet has to close and flush on its own.
 - He mentioned the idea of not being able to flush until the lid is closed.
 
