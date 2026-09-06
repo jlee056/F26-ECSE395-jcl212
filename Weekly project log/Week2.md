@@ -38,39 +38,83 @@ pinned the port in `platformio.ini` so it cannot happen again.
 
 ## Team Contributions (whole group)
 
-**September 4, 2026 — Stakeholder has not responded yet**
-We emailed our stakeholder during Week 1 to introduce the team and the project. As of this week we
-have not heard back, so the need-finding interview has **not happened yet**.
+**September 4, 2026 — Need-finding interview with our stakeholder**
+We ran our first need-finding interview with our stakeholder, Samuel Levacy, over Zoom from roughly
+5:01 to 5:19 PM. George coordinated the scheduling and took the minutes; all three of us attended and
+asked questions. We deliberately kept the conversation on the problem and away from solutions.
 
-**September 4, 2026 — Escalating to the teaching staff**
-The instructors posted a Canvas announcement telling teams to come talk to them if their stakeholder
-does not respond. We are following that: the team is meeting with the teaching staff to let them
-know our stakeholder has not replied and to figure out next steps — either a follow-up to the same
-stakeholder or being pointed toward a different one.
+**September 4, 2026 — The interview changed how we understand the problem**
+We went in thinking the problem was people *forgetting* to close the toilet lid before flushing. That
+is not what our stakeholder described. He is not looking for a reminder — he wants the lid to close
+and the toilet to flush **on its own**, without him doing anything. The two roots underneath that are
+**sanitation** and **convenience**. His current soft-closing lid actually works against the
+convenience side, because he has to wait for it to finish closing before he can flush.
+
+**September 4, 2026 — Confirmed the problem statement in writing**
+I drafted and sent a follow-up email restating our understanding of the problem back to the
+stakeholder and asking him to correct anything we had misread, so that we would not carry a wrong
+assumption into the design work. He replied the same evening confirming that our restatement
+"clarifies the problem statement well." He also agreed to our proposed second meeting on
+**Monday, September 21, 6:00–7:00 PM Eastern**, which George will send a Zoom link for.
 
 ---
 
 ## Meeting Notes
 
-**Date:** 9/4/26 · **Format:** in person
+**Date:** 9/4/26 · **Format:** Zoom (stakeholder interview) + team debrief
 
-- Attendees: Jeremy Lee, Ethan Sloat, George Guaman
-- Reviewed the status of the stakeholder email sent in Week 1 and still no response
-- Read the Canvas announcement about unresponsive stakeholders
-- Decided to raise it with the teaching staff rather than keep waiting
+- Attendees: Jeremy Lee, Ethan Sloat, George Guaman, Samuel Levacy (stakeholder)
+- Ran the first need-finding interview (~18 minutes)
+- Agreed during the interview to steer away from proposing solutions
+- Debriefed and identified the two underlying roots: sanitation and convenience
+- Listed potential obstacles for any future concept: two people in the bathroom at once, shower
+  steam, the cat, someone flushing while the lid is still closing, and cleaning the toilet
+- Agreed to send a written restatement of the problem to the stakeholder for confirmation
+- Proposed and confirmed a second interview for Monday, September 21, 6:00–7:00 PM Eastern
 
 **Next steps:**
-- Meet with the teaching staff about the unresponsive stakeholder
-- Once a stakeholder is confirmed, schedule and run the need-finding interview
+- Build the affinity cluster board in Figma from the interview data
+- Prepare questions for the September 21 interview to collect the additional detail we still need
+- Draft the needs statement and personas for the Project Background assignment
 - Continue individual ESP32 practice so we are ready to prototype
 
 ---
 
 ## Need-Finding Interview Notes
 
-The need-finding interview has **not been conducted yet**. Our stakeholder has not responded to the
-introduction email we sent in Week 1. We are meeting with the teaching staff to resolve this, and
-these notes will be filled in as soon as the interview is scheduled and completed.
+**Stakeholder:** Samuel Levacy · **Date:** 9/4/26 · **Duration:** ~18 min · **Format:** Zoom
+
+**Context**
+- He has two bathrooms; he mainly uses one, and the other holds the cat's litter box.
+- He has one cat.
+- The lights in the bathroom already turn on every time it is used.
+- He sometimes uses the bathroom without using the toilet.
+- His toilet already has a soft-closing lid.
+
+**The problem in his words**
+- He forgets to close the toilet cover before flushing.
+- His friend's wife always says to shut the toilet bowl before flushing.
+- He raised sanitary concerns as the reason it matters.
+- Guests are important to him — he framed it as a household standard.
+- The soft-closing lid is slow, and waiting for it before flushing is annoying.
+- He said the problem is not so much about not forgetting — he wants an auto-flush function.
+- He said the toilet has to close and flush on its own.
+- He mentioned the idea of not being able to flush until the lid is closed.
+
+**Concerns and edge cases raised**
+- Flushing the toilet without leaving the room, for example before showering.
+- Two people in the bathroom at once potentially confusing any sensing.
+- Steam from the shower interfering with sensing.
+- The cat interfering with sensing.
+- Someone trying to flush while the lid is still closing.
+- Cleaning the toilet.
+
+**Scheduling**
+- 6:00–7:00 PM slots, Monday through Thursday, work best for him.
+
+**Conclusion given to the stakeholder**
+The underlying roots of the problem are sanitary concerns and convenience, and we will aim our
+concepts at those two issues. He confirmed this in writing by email the same evening.
 
 ---
 
@@ -78,5 +122,5 @@ these notes will be filled in as soon as the interview is scheduled and complete
 
 | | |
 | --- | --- |
-| **Worked on as a team** | Followed up on the unresponsive stakeholder and decided to escalate to the teaching staff per the Canvas announcement; need-finding interview still pending |
-| **My individual contribution** | Completed Lab 2, ESP32 toolchain setup, custom multi-pattern blink code with commented modifications, and the `esp32_basics.md` write-up |
+| **Worked on as a team** | Ran our first need-finding interview with our stakeholder, reframed the problem from "forgetting to close the lid" to "wanting the lid to close and the toilet to flush automatically," identified sanitation and convenience as the two roots, confirmed that framing with the stakeholder in writing, and scheduled a second interview for September 21 |
+| **My individual contribution** | Completed Lab 2 end to end — ESP32 toolchain setup, custom multi-pattern blink code with commented modifications, and the `esp32_basics.md` write-up; also drafted and sent the follow-up email that got our problem statement confirmed by the stakeholder |
