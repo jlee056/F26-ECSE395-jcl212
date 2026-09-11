@@ -8,7 +8,7 @@ Jeremy Lee (jcl212)
 ## Setup
 - Mac, VS Code with the PlatformIO extension
 - Adafruit Feather ESP32 V2 plugged in with a USB-C data cable
-- Code is uploaded with PlatformIO (Build, then Upload, then open the Serial Monitor at 115200 baud)
+- Code is uploaded with PlatformIO 
 
 ## What's in this folder
 - `src/potentiometer.cpp` - prints the raw potentiometer value (0-4095)
