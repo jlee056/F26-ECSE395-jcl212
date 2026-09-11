@@ -15,7 +15,6 @@ Jeremy Lee (jcl212)
 - `src/voltage.cpp` - converts the potentiometer reading to volts and prints it
 - `src/touch.cpp` - prints "Touch detected!" / "No touch detected..." and turns the onboard LED on/off
 - `src/main.cpp` - PlatformIO default file, commented out
-- `touch_demo.MOV` - video of the touch sensor and LED working
 
 ## Wiring
 - Potentiometer: VCC to 3V, GND to GND, signal to A0
@@ -27,22 +26,22 @@ Only one file in `src` can be uncommented at a time because each one has its own
 ## Reflection
 **1. How long did it take you to complete this assignment?**
 
-___
+About 1 hour.
 
 **2. What level of difficulty would you associate with this assignment?**
 
-- [ ] Low
+- [x] Low
 - [ ] Medium
 - [ ] High
 
 **3. If you associated medium/high difficulty with this assignment, what aspect did you find the most difficult?**
 
-___
+N/A
 
 **4. How comfortable do you currently feel with the course content?**
 
-___
+Very comfortable. I've worked with the ESP32 a lot, so the wiring and the code were pretty straightforward.
 
 **5. Do you have any additional information or feedback you would like to share with the instructors?**
 
-___
+N/A
