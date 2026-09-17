@@ -1,10 +1,10 @@
-#include <Arduino.h>
+#include <Arduino.h> // jcl212 - Arduino functions (pinMode, digitalWrite, delay, Serial)
 
 // jcl212 - Same wiring as TT Motor.cpp
 const int MOTOR_B_1A = 26; // jcl212 - A0 (GPIO 26) -> motor driver B-1A
 const int MOTOR_B_1B = 25; // jcl212 - A1 (GPIO 25) -> motor driver B-1B
 
-void setup() {
+void setup() { // jcl212 - runs once when the ESP32 starts
   Serial.begin(115200); // jcl212 - start serial at the same baud rate as monitor_speed in platformio.ini
 
   pinMode(MOTOR_B_1A, OUTPUT); // jcl212 - B-1A drives the motor, so it is an output
@@ -13,7 +13,7 @@ void setup() {
   Serial.println("TT Motor Rotate ready"); // jcl212 - confirms the board booted and setup finished
 }
 
-void loop() {
+void loop() { // jcl212 - repeats the 4 sections forever
   // --- SECTION 1: Clockwise (5s) ---
   Serial.println("Clockwise"); // jcl212 - label the step in the serial monitor
 

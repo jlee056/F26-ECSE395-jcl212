@@ -45,7 +45,7 @@ A2, A3, and A4 are input only on the Feather V2, so I used A0 and A1.
 - `Servo Motor EC.cpp` moves between 0° and 180° with an ease-in/ease-out curve, `(1 - cos(πt)) / 2`, so it starts slow, speeds up, and slows down before stopping.
 
 ### Documentation
-Took pictures of both circuits and videos of the motors running (videos submitted on Canvas), and wrote this file.
+Took 2 pictures (TT motor circuit and servo circuit) and 5 videos (TT motor rotate, TT motor extra credit, servo sweep, servo random, servo extra credit). The pictures and videos are submitted on Canvas.
 
 ## TT Motor Parameters
 Original: `analogWrite(B_1A, 255)`, `analogWrite(B_1B, 0)`, `delay(5000)`. The motor spun fast for 5 s, then stopped.
