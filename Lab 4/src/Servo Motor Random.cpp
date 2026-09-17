@@ -1,6 +1,4 @@
 #include <ESP32Servo.h>
-// Don't forget to include the library!!
-// From PlatfromIO library, search for ESP32 servo and add it to the project
 
 // Define the servo and the pin it is connected to, what is your servo pin?
 Servo myServo;
