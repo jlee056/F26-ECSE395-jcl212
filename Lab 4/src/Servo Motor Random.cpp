@@ -23,10 +23,10 @@ void setup() {
 }
 
 void loop() {
-    //  --- SECTION 1: Make a Random Angle Between 0 to 180 ---
+    // Make a Random Angle Between 0 to 180
     randomAngle = random(0, 181); // jcl212 - random(A,B) never returns B, so 181 lets it reach 180
 
-    // ---SECTION 2: Map Pulse Width with Angle
+    // SECTION 2: Map Pulse Width with Angle
     pulseWidth = map(randomAngle, 0, 180, minPulseWidth, maxPulseWidth); // jcl212 - 0 deg -> 500 us, 180 deg -> 2500 us, same as Servo Motor.cpp
     myServo.writeMicroseconds(pulseWidth); // writing pulse width to servo
 
