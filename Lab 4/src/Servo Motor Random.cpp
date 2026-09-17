@@ -4,7 +4,7 @@
 
 // Define the servo and the pin it is connected to, what is your servo pin?
 Servo myServo;
-const int servoPin = 0;
+const int servoPin = 26; // jcl212 - A0 (GPIO 26) -> servo signal (orange)
 
 // variable for random angle
 int randomAngle;
@@ -26,11 +26,11 @@ void setup() {
 
 void loop() {
     //  --- SECTION 1: Make a Random Angle Between 0 to 180 ---
-    // randomAngle = ?; // random(A,B); returns a random value between A and B
+    randomAngle = random(0, 181); // jcl212 - random(A,B) never returns B, so 181 lets it reach 180
 
     // ---SECTION 2: Map Pulse Width with Angle
-    // pulseWidth = map(?, ?, ?, ?, ?, ?) // from Servo Motor.cpp, what did you learn from using map function?
+    pulseWidth = map(randomAngle, 0, 180, minPulseWidth, maxPulseWidth); // jcl212 - 0 deg -> 500 us, 180 deg -> 2500 us, same as Servo Motor.cpp
     myServo.writeMicroseconds(pulseWidth); // writing pulse width to servo
 
-    delay(1000); // change delay to your own preference
+    delay(random(300, 1501)); // jcl212 - different delay every move, 0.3 to 1.5 s
 }
