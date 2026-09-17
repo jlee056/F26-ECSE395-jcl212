@@ -81,12 +81,12 @@ About 4.5 hours.
 
 **3. If you associated medium/high difficulty with this assignment, what aspect did you find the most difficult?**
 
-The wiring. The diagram uses a different ESP32 than the Feather, so I had to figure out which pins to use. My first wiring kept the ESP32 from booting, so the upload failed until I rewired it.
+My first wiring kept the ESP32 from booting, so the upload failed until I rewired it.
 
 **4. How comfortable do you currently feel with the course content?**
 
-Fairly comfortable. The code and uploading feel familiar now, but the hardware side is still new to me.
+Fairly comfortable. The code and uploading feel familiar now and the hardware side is comfortable
 
 **5. Do you have any additional information or feedback you would like to share with the instructors?**
 
-The second `for` loop in `Servo Motor.cpp` uses `angle <= 0`, so the servo never sweeps back. It should be `angle >= 0`.
+
