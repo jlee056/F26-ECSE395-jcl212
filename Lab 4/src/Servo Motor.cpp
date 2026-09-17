@@ -1,8 +1,5 @@
 #include <ESP32Servo.h>
-// Don't forget to include the library!!
-// From PlatfromIO library, search for ESP32 servo and add it to the project
 
-// Define the servo and the pin it is connected to, what is your servo pin?
 Servo myServo;
 const int servoPin = 26; // jcl212 - A0 (GPIO 26) -> servo signal (orange)
 
@@ -29,7 +26,6 @@ void loop() {
   for (int angle = 0; angle <= 180; angle++) {
     int pulseWidth;
     // the map function is a puction that maps 0 degrees to 500 pulse width, and 180 degrees to 2500 pulse width
-    // map(angle, min angle, max angle, min pulse width, max pulse width)
     pulseWidth = map(angle, 0, 180, minPulseWidth, maxPulseWidth);
     myServo.writeMicroseconds(pulseWidth);
     delay(10); // jcl212 - my preferred delay, changed from 15
@@ -39,7 +35,6 @@ void loop() {
   for (int angle = 180; angle >= 0; angle--) { // jcl212 - fixed: was `angle <= 0`, so this loop never ran
     int pulseWidth;
     // the map function is a puction that maps 0 degrees to 500 pulse width, and 180 degrees to 2500 pulse width
-    // map(angle, min angle, max angle, min pulse width, max pulse width)
     pulseWidth = map(angle, 0, 180, minPulseWidth, maxPulseWidth);
     myServo.writeMicroseconds(pulseWidth);
     delay(10); // jcl212 - my preferred delay, changed from 15
