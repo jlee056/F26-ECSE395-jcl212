@@ -6,15 +6,14 @@
 #include <Arduino.h>     // jcl212 - core Arduino functions (analogRead, map, delay, Serial)
 #include <ESP32Servo.h>  // jcl212 - servo library for the ESP32 (same one as Lab 4)
 
-// ---------------- Pins ----------------
-const int potPin = A1;    // jcl212 - A1 (GPIO25) -> potentiometer signal. ADC2 pin, works because WiFi is not used
-const int servoPin = A0;  // jcl212 - A0 (GPIO26) -> servo signal (orange wire), same as Lab 4
 
-// ---------------- Servo settings (from Lab 4) ----------------
+const int potPin = A1;    // jcl212 - A1 
+const int servoPin = A0;  // jcl212 - A0 
+
 const int minPulseWidth = 500;   // jcl212 - 0.5 ms pulse = 0°
 const int maxPulseWidth = 2500;  // jcl212 - 2.5 ms pulse = 180°
 
-// ---------------- Reading settings ----------------
+
 const int adcMax = 4095;      // jcl212 - the ESP32 ADC is 12-bit, so analogRead() returns 0-4095
 const int numSamples = 10;    // jcl212 - average 10 readings to smooth out ADC noise
 const int deadband = 2;       // jcl212 - ignore angle changes of 2° or less so the servo doesn't jitter
