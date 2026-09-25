@@ -7,7 +7,7 @@
 #include <ESP32Servo.h>  // jcl212 - servo library for the ESP32 (same one as Lab 4)
 
 // ---------------- Pins ----------------
-const int potPin = A2;    // jcl212 - A2 (GPIO34) -> potentiometer signal. Input-only pin on ADC1, fine for a sensor
+const int potPin = A1;    // jcl212 - A1 (GPIO25) -> potentiometer signal. ADC2 pin, works because WiFi is not used
 const int servoPin = A0;  // jcl212 - A0 (GPIO26) -> servo signal (orange wire), same as Lab 4
 
 // ---------------- Servo settings (from Lab 4) ----------------

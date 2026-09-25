@@ -28,14 +28,14 @@ This combination is not one of the Sunfounder website projects listed in the han
 |---|---|---|
 | Potentiometer | VCC | 3V (3.3 V) |
 | Potentiometer | GND | GND |
-| Potentiometer | Signal (middle) | A2 (GPIO34) |
+| Potentiometer | Signal (middle) | A1 (GPIO25) |
 | Servo | Red (power) | USB (5 V) |
 | Servo | Brown (ground) | GND |
 | Servo | Orange (signal) | A0 (GPIO26) |
 
 **How the circuit works:**
 - The potentiometer is a voltage divider. Its outer pins go to 3.3 V and GND, so the middle (signal) pin outputs a voltage between 0 and 3.3 V depending on where the knob is turned. I powered it from **3.3 V, not 5 V**, because the ESP32's analog pins can only read up to 3.3 V.
-- The signal goes to **A2 (GPIO34)**. It's an input-only pin, which is fine for a sensor, and it's on ADC1, so the reading works normally.
+- The signal goes to **A1 (GPIO25)**. A1 is an ADC2 pin, which can't read analog values while WiFi is on. This project doesn't use WiFi, so it reads normally.
 - The servo is powered from the **USB pin (5 V)**, because the SG90 is a 5 V servo and draws more current than the 3.3 V pin should supply. Its signal wire is on **A0 (GPIO26)**, the same as Lab 4.
 - **All grounds are connected together** (potentiometer GND, servo GND, ESP32 GND). Otherwise the servo signal and the analog reading have no common reference.
 
@@ -63,7 +63,7 @@ This combination is not one of the Sunfounder website projects listed in the han
 - Video of the knob moving the servo: posted as a comment on the Lab 5 Canvas assignment.
 
 ## How my system works
-Turning the potentiometer changes the voltage on A2. The ESP32 reads that voltage as a number from 0 to 4095, converts it to an angle from 0 to 180°, and sends the servo the matching PWM pulse (0.5 ms = 0°, 2.5 ms = 180°). The servo arm follows the knob in real time, and the Serial Monitor prints the knob value and angle each time the servo moves.
+Turning the potentiometer changes the voltage on A1. The ESP32 reads that voltage as a number from 0 to 4095, converts it to an angle from 0 to 180°, and sends the servo the matching PWM pulse (0.5 ms = 0°, 2.5 ms = 180°). The servo arm follows the knob in real time, and the Serial Monitor prints the knob value and angle each time the servo moves.
 
 **Proof:** picture of the setup above; video on Canvas.
 
