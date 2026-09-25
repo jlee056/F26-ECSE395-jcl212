@@ -70,21 +70,21 @@ Turning the potentiometer changes the voltage on A1. The ESP32 reads that voltag
 ## Reflection
 **1. How long did it take you to complete this assignment?**
 
-_TODO_
+About 30 minutes.
 
 **2. What level of difficulty would you associate with this assignment?**
 
-- [ ] Low
+- [x] Low
 - [ ] Medium
 - [ ] High
 
 **3. If you associated medium/high difficulty with this assignment, what aspect did you find the most difficult?**
 
-_TODO_
+N/A. It was really easy because I already used the potentiometer in Lab 3 and the servo in Lab 4, so I just had to combine the two.
 
 **4. How comfortable do you currently feel with the course content?**
 
-_TODO_
+Very comfortable. I have experience with both the potentiometer and the servo, and uploading to the ESP32 is routine now.
 
 **5. Do you have any additional information or feedback you would like to share with the instructors?**
 
