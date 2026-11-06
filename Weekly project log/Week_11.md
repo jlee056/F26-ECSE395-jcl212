@@ -8,7 +8,7 @@
 
 **November 2, 2026 - MVP status report**
 
-I wrote our MVP status report using the course template. It covers what we built, the feedback we used, what the core functions test, our biggest risks, next week's tests and who is doing what. I added George's photos of the printed gears, the slicer plate and the failed print, plus frames from our bench videos. The report says the gear train and the sensor board are still separate. It also says the ESP32 angle readout changes when the potentiometer turns, but we do not have a reference angle yet, so we have not measured sensor accuracy. I uploaded the [MVP report](https://drive.google.com/file/d/1gg9oyU70UCc0m-J1zx2NIQVq7yIOL0b5/view) and the three videos to the new [MVP folder](https://drive.google.com/drive/folders/1hI2HaToY0vsYn4bHoQkrP_bDqK_Fsddj) in our team Drive.
+I wrote our MVP status report using the course template. It covers what we built, the feedback we used, what the core functions test, our biggest risks, next week's tests and who is doing what. I added George's photos of the printed gears, the slicer plate and the failed print, plus frames from our bench videos. The report says the gear train and the sensor board are still separate. It also says the ESP32 angle readout changes when the potentiometer turns, but we do not have a reference angle yet, so we have not measured sensor accuracy. I uploaded the [MVP report](https://drive.google.com/file/d/1gg9oyU70UCc0m-J1zx2NIQVq7yIOL0b5/view) and the three videos to the new [MVP folder](https://drive.google.com/drive/folders/1hI2HaToY0vsYn4bHoQkrP_bDqK_Fsddj) in our team Drive, and we submitted the report on Canvas.
 
 **November 2, 2026 - Done button on the breadboard**
 
