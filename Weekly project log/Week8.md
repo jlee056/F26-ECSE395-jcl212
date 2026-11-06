@@ -30,7 +30,7 @@ I uploaded it to our Drive folder `05 Concept Selection & Gantt`. Here is the pa
 **October 12, 2026 - Team discussion of the V&V plan (group chat)**
 Present: Ethan Sloat, George Guaman, Jeremy Lee
 
-George read the draft and said it was too long and too heavily formatted, that our professor is Prof. Fu (the draft said Dr. Block), and that a home trial and recruiting guests weren't realistic for us. He also asked whether Prof. Fu wanted an ideal validation plan or a realistic one.
+George read the draft and said it was too long and too heavily formatted, that our professor is Prof. Fu (the draft named the wrong professor), and that a home trial and recruiting guests weren't realistic for us. He also asked whether Prof. Fu wanted an ideal validation plan or a realistic one.
 
 What we decided:
 Cut the plan to about 6 pages, drop the home trial and the recruiting, keep the volunteer check small and only do it after asking Prof. Fu, and submit that night.

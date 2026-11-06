@@ -1,5 +1,5 @@
 # Overview
-This repository holds my coursework for **ECSE 395 — Junior Engineering Design Seminar** (Fall 2026), taught by Dr. Alexis E. Block and Michael Fu.
+This repository holds my coursework for **ECSE 395 — Junior Engineering Design Seminar** (Fall 2026), taught by Prof. Michael Fu.
 
 The purpose of the `Weekly project log` folder is to keep a **weekly, dated record of the work I do toward the semester project**. It serves as an accountability log of my individual contributions across the semester every time I work on the project, I write a short summary in that week's Markdown file and commit it.
 
@@ -18,3 +18,4 @@ Each week gets its own file, listed in the table of contents below.
 | [Week 8](Week8.md) | Finished and submitted our Verification and Validation Plan after cutting it to 6 pages with the team's feedback, and merged our two Gantt charts into one (Rev B) with percent done, the V&V test dates, and the prototype tasks that slipped. Prepared for the Week 8 check-in on Prototype Stage 3. |
 | [Week 9](Week9.md) | Finished the prototype model in SolidWorks, kept working on the lid angle sensor decision (hinge potentiometer or gyroscope), got Prof. Fu's comment on the Verification and Validation Plan, and started updating the Gantt chart. |
 | [Week 10](Week_10.md) | Prepared a Prototypes 1-3 report draft using our physical prototype evidence, tested a software model of the lid-closed flush interlock, reviewed the midterm deck and printed-gear CAD, and listed the measurements still needed for the November 2 MVP. |
+| [Week 11](Week_11.md) | Wrote and uploaded our MVP status report after a 3D print failure, built the Done button on a breadboard, and planned the reprint, the hinge angle readings and the Done interlock test. Prof. Fu let us revise the MVP after grading. |
