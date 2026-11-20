@@ -32,7 +32,4 @@ We used the control tally for the data analysis checkpoint, since the design rev
 
 - Mount the laser cut wood base on the prototype and check that it replaces the cardboard base.
 - Go through the survey responses and choose the button design.
-- Test the device with people outside the team and compare the lid closing rate with the control group (0 of 31).
-- Save the serial angle readings to a timestamped file and take readings at known reference angles.
-- Run the Done interlock test and add the flush LED.
 - Update the Gantt chart and revise the MVP report once the grade is released.
