@@ -6,9 +6,9 @@
 
 ## Individual Contributions
 
-**Think[Box] laser cutting**
+**November 19, 2026 - Think[Box] laser cutting**
 
-I went to Think[Box] and we laser cut a piece of wood to replace the cardboard in our prototype. The cardboard version bent and wasn't very stiff, so the wood part should hold up better when we test the lid mechanism. We haven't mounted it on the prototype yet.
+I went to Think[Box] and we laser cut the base out of wood to replace the cardboard base in our prototype. The cardboard version bent and wasn't very stiff, so the wood base should hold up better when we test the lid mechanism. We haven't mounted it on the prototype yet.
 
 **Control group data**
 
@@ -30,7 +30,7 @@ We used the control tally for the data analysis checkpoint, since the design rev
 
 ## Next steps
 
-- Mount the laser cut wood part on the prototype and check that it replaces the cardboard.
+- Mount the laser cut wood base on the prototype and check that it replaces the cardboard base.
 - Go through the survey responses and choose the button design.
 - Test the device with people outside the team and compare the lid closing rate with the control group (0 of 31).
 - Save the serial angle readings to a timestamped file and take readings at known reference angles.
